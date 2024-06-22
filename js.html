@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function showmeDialog() {
+            alert("Tinkune, Koteshwor-32");
+        }
+        
+        function changeMe() {
+            document.getElementById("Home").innerHTML="Sitemap";
+        }
+
+        function changeeMe() {
+            document.getElementById("Price").innerHTML="Rs.500";
+        }
+
+    </script>
+</head>
+
+<body>
+    <h1>Welcome to our website</h1>
+    <p id="Home">Home</p> <br>
+    <p id="About">About</p> <br>
+    <p id="Momo">Momo</p><br>
+    <p id="Pizza">Pizza</p><br>
+    <button type="button" onclick="changeMe()">Sitemap</button>
+    <button type="button" onclick="showmeDialog()">Contact</button>
+    <button type="button" onclick="changeeMe()">Momo</button>
+    <p id="Price"></p>
+    
+
+</body>
+
+</html>
