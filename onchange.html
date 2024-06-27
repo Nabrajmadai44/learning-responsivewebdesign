@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function countrySelect() {
+           let c = document.getElementById("country").value;
+           document.getElementById("printHere").innerHTML="Youchoosed:" + c;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <label for="">Select Country:</label>
+        <select name="country" id="country" onchange="countrySelect()">
+            <option value="Nepal">Nepal</option>
+            <option value="Bhutan">Bhutan</option>
+            <option value="USA">USA</option>
+            <option value="India">India</option>
+        </select>
+    </div>
+    <div id="printHere"></div>
+
+  
+</body>
+</html>
