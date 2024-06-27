@@ -1,39 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/templete.css">
+    <title>Food Hub</title>
+    <link rel="icon" href="images/blackphoto.png">
+    <link rel="stylesheet" href="CSS/foodhub.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
-    <header>
-    <div class="logo">
-      <span class="icon"> <i class="fa-solid fa-bowl-food"></i> </span> <span class="tittle">Food Hub</span>
+    <div class="content1">
+        <header>
+            <div class="logo">
+                <span class="icon"> <i class="fa-solid fa-bowl-food"></i> </span> <span class="tittle">Food Hub</span>
+
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Recipes</a></li>
+                    <li><a href="">Pages</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">shortcodes</a></li>
+                    <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-address-book"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-bowl-food"></i></a></li>
+                    <li><button class="submit">Submit Recipe</button></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="ads">
+                <p class="big-text">
+                    It is even better than <br> an expensive cookery book
+                </p>
+                <p class="text">Learn how to make you favorite restaurtant's dishes</p>
+                <div class="inputs">
+                    <input type="text" id="dishes" placeholder="I want to make ...">
+                    <select name="" id="categories">
+                        <option value=""> Categories</option>
+                        <option value=""> BreakFast</option>
+                        <option value=""> Launch</option>
+                        <option value=""> Dinner</option>
+                    </select>
+                    <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="category">
+        <h2>
+            Recipes of Category
+        </h2>
+        <p class="para">Excepteur sint occaecat cupidatat non qui proident, sunt culpa qui officia <br> deserunmollit anim id est laborum.</p>
+    </div>
+    <div class="content2">
+        <div class="box" id="box1">🍛</div>
+        <div class="box" id="box2">🌭</div>
+        <div class="box"id="box3">🍕</div>
+        <div class="box" id="box4">🍟</div>
+        
+    </div>
     
-    </div>
-    <div class="nav">
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Recipes</a></li>
-            <li><a href="">Pages</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Shop</a></li>
-            <li><a href="">shortcodes</a></li>
-            <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
-            <li><a href=""><i class="fa-solid fa-address-book"></i></a></li>
-            <li><a href=""><i class="fa-solid fa-bowl-food"></i></a></li>
-            <li><button class="submit">Submit Recipe</button></li>
-        </ul>
-    </div>
-</header>
-<main>
-    <p class="ads"> 
-        It is even better than <br> an expensive cookery book
-    </p>
-    <p class="text">Learn how to make you favorite restaurtant's dishes</p>
-</main>
     <script src="JavaScript/templete.js"></script>
 </body>
+
 </html>
