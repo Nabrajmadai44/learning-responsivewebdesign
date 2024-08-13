@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-image: url('https://i.imgur.com/RurqKDM.jpg'); /* Add a background image */
+    background-image: url("https://imgur.com/RurqKDM"); /* Add a background image */
     color: white;
     padding: 50px 20px;
     background-size: cover;
