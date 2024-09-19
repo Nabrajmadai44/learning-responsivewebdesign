@@ -1,16 +1,16 @@
-#box {
-    background-color: blue;
-    /* color: white; */
+* {
+    font-family: 'Times New Roman';
 }
 
-.heading {
-    color: red;
+h1 {
+    text-align: center;
+    text-transform: capitalize;
 }
 
-/* h1, h2, h3 {
-    color: blue;
-} */
+#outer {
+    font-size: 25px;
+}
 
-button {
-    background-color: green;
+#inner {
+    font-size: 10px;
 }
