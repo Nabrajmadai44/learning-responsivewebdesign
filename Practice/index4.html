@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice set</title>
     <style>
-        div {
+        <!-- .navbar {
             background-color: pink;
             display: flex;
             justify-content: space-evenly;
@@ -20,10 +20,53 @@
             list-style: none;
             display: inline;
         }
+
+        .outer {
+            height: 400px;
+            width: 400px;
+            background-color: blueviolet;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .inner {
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+        } -->
+        div {
+            height: 200px;
+            width: 200px;
+            background-color: chocolate;
+        }
+
+        @media ( max-width : 300px) {
+            div {
+                background-color: red;
+            }
+        }
+        @media (min-width: 300px) and (max-width:400px) {
+            div {
+                background-color: black;
+            }
+        }
+
+        @media (min-width: 400px) and (max-width:600px) {
+            div {
+                background-color: pink;
+            }
+        }
+
+        @media (min-width: 600px) {
+            div {
+                background-color: blue;
+            }
+        }
     </style>
 </head>
 <body>
-    <div class="navbar">
+    <!-- <div class="navbar">
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#aboutus">About Us</a></li>
@@ -31,5 +74,11 @@
             <li><a href="#help">Help</a></li>
         </ul>
     </div>
+    <div class="outer">
+        <div class="inner">
+            
+        </div>
+    </div> -->
+    <div></div>
 </body>
 </html>
